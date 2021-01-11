@@ -1,3 +1,4 @@
+/*--********************BODY********************--*/
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -13,28 +14,105 @@ header {
 }
 
 #logo {
-  width: 5rem;
+  height: 50px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: #0065fc;
-  text-decoration: overline #0065fc;
-}
-
-header ul {
+.nav_section {
   display: flex;
   justify-content: space-between;
   width: 25rem;
 }
 
+.nav_section a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav_section a:hover {
+  color: #0065fc;
+  text-decoration: overline #0065fc;
+}
+
+#subscribe {
+  color: #0065fc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 /*--********************MAIN********************--*/
+
 /*--*****SEARCH*****--*/
+
 /*--SEARCH BUTTON --*/
 .fas.fa-map-marker-alt {
-  background-color: gray;
+  background-color: rgb(235, 235, 235);
+  padding: 9px;
+  border-radius: 10px 0px 0px 10px;
+  margin-right: -5px;
+  margin-top: 2px;
+}
+
+.search_location {
+  text-align: center;
+  font-weight: bold;
+  padding: 9px;
+  margin-bottom: 1px;
+  border: 1.5px solid #f2f2f2;
+  outline: none;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.search_button {
+  background-color: #0065fc;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+  padding: 10px;
+  margin-left: -5px;
+  font-size: small;
+  text-decoration: none;
+}
+
+.search_button:hover {
+  color: white;
+  background-color: #003a91;
+  text-decoration: none;
+}
+
+/*--SEARCH FILTER--*/
+.filters {
+  display: flex;
+}
+
+.button_filter {
+  color: #0065fc;
+  background-color: transparent;
+  border: 1.5px solid #d1d1d1;
+  border-radius: 25px;
+  outline: none;
+  margin-block: 20px;
+  margin-left: 15px;
+  height: 30px;
+}
+
+.button_filter:hover {
+  background-color: #deebff;
+}
+
+.button_filter a {
+  width: 30px;
+  height: 30px;
+  color: #0065fc;
+  background-color: #deebff;
+  border-radius: 25px;
+  line-height: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.button_filter span {
+  color: black;
+  font-weight: bold;
 }

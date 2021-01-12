@@ -133,9 +133,11 @@ input::placeholder {
   display: flex;
   align-items: baseline;
 }
+
 .info_title p {
   margin: 10px;
 }
+
 .fas.fa-info {
   display: flex;
   align-items: center;

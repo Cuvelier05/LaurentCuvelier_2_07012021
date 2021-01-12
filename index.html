@@ -17,18 +17,18 @@
   </head>
 
   <body>
-    <!--********************HEADER********************-->
-    <header>
-      <img src="images/logo/Reservia@3x.png" id="logo" alt="Logo Reservia" />
-      <nav class="nav_section">
-        <a href="#">Hébergements</a>
-        <a href="#">Activités</a>
-        <a id="subscribe" href="#">S'inscrire</a>
-      </nav>
-    </header>
-
-    <!--********************MAIN********************-->
     <main>
+      <!--********************HEADER********************-->
+      <header>
+        <img src="images/logo/Reservia@3x.png" id="logo" alt="Logo Reservia" />
+        <nav class="nav_section">
+          <a href="#">Hébergements</a>
+          <a href="#">Activités</a>
+          <a id="subscribe" href="#">S'inscrire</a>
+        </nav>
+      </header>
+
+      <!--********************MAIN********************-->
       <!--*****SEARCH*****-->
       <!--SEARCH SECTION TITLE-->
       <section class="search">
@@ -39,7 +39,7 @@
 
         <!--SEARCH BUTTON -->
         <div class="search_space">
-          <span class="fas fa-map-marker-alt"></span>
+          <id class="fas fa-map-marker-alt"></id>
           <input
             class="search_location"
             type="text"
@@ -53,62 +53,89 @@
           <h2>Filtres</h2>
 
           <button class="button_filter">
-            <a class="fas fa-money-bill-wave" type="icons"></a>
-            <span>Econonomique</span>
+            <span class="icons"><i class="fas fa-money-bill-wave"></i></span>
+            <a href="#">Econonomique</a>
           </button>
 
           <button class="button_filter">
-            <a class="fas fa-child"></a>
-            <span>Familial</span>
+            <span class="icons"><i class="fas fa-child"></i></span>
+            <a href="#">Familial</a>
           </button>
 
           <button class="button_filter">
-            <a class="fas fa-heart"></a>
-            <span>Romantique</span>
+            <span class="icons"> <i class="fas fa-heart"></i></span>
+            <a href="#">Romantique</a>
           </button>
 
           <button class="button_filter">
-            <a class="fas fa-dog"></a>
-            <span>Animaux autorisés</span>
+            <span class="icons"> <i class="fas fa-dog"></i></span>
+            <a href="#">Animaux autorisés</a>
           </button>
         </div>
 
-        <a class="fas fa-info"
-          >Plus de 500 logements sont disponibles dans cette ville</a
-        >
+        <div class="info_title">
+          <id class="fas fa-info"></id>
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
       </section>
 
       <!--*****HOSTING*****-->
       <section class="hosting">
         <h2>Hébergements à Marseille</h2>
-        <img
-          src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-          alt="photo Auberge la Cannebière"
-        /><i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <img
-          src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-          alt="photo Hôtel du port"
-        />
-        <img
-          src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-          alt="photo Hôtel les mouettes"
-        />
-        <img
-          src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-          alt="photo Hôtel de la mer"
-        />
-        <img
-          src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-          alt="photo Auberge Le Panier"
-        />
-        <img
-          src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-          alt="photo Hôtel chez Amina"
-        />
+
+        <div>
+          <figure>
+            <img
+              src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+              alt="photo Auberge la Cannebière"
+            />
+          </figure>
+          <span>
+            <strong><p>Auberge de la Cannebière</p></strong>
+            Nuit à partir de <strong>25€</strong>
+          </span>
+          <br /><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+
+        <figure>
+          <img
+            src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+            alt="photo Hôtel du port"
+          />
+        </figure>
+
+        <figure>
+          <img
+            src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+            alt="photo Hôtel les mouettes"
+          />
+        </figure>
+
+        <figure>
+          <img
+            src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+            alt="photo Hôtel de la mer"
+          />
+        </figure>
+
+        <figure>
+          <img
+            src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+            alt="photo Auberge Le Panier"
+          />
+        </figure>
+
+        <figure>
+          <img
+            src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+            alt="photo Hôtel chez Amina"
+          />
+        </figure>
+
         <p><strong>Afficher plus</strong></p>
       </section>
 

@@ -83,7 +83,7 @@ input::placeholder {
 
 .search_button:hover {
   color: white;
-  background-color: #003a91;
+  background-color: #0022e2;
   text-decoration: none;
 }
 
@@ -192,8 +192,7 @@ input::placeholder {
 }
 
 .box_1:hover {
-  background-color: #0065fc;
-  color: white;
+  background-color: #deebff;
 }
 
 .hosting img {
@@ -206,7 +205,7 @@ input::placeholder {
 }
 
 .fas.fa-star {
-  color: blue;
+  color: #0065fc;
 }
 .fas.fa-star.off {
   color: gray;
@@ -230,7 +229,7 @@ input::placeholder {
   justify-content: space-between;
 }
 
-.box_2 {
+.most_popular figure {
   display: flex;
   align-items: center;
   width: 340px;
@@ -242,9 +241,8 @@ input::placeholder {
   text-decoration: none;
 }
 
-.box_2:hover {
-  background-color: #0065fc;
-  color: white;
+.most_popular figure:hover {
+  background-color: #deebff;
 }
 .most_popular img {
   width: 127px;
@@ -253,7 +251,7 @@ input::placeholder {
   object-fit: cover;
 }
 
-.most_popular h3 {
+/*.most_popular h3 {
   color: black;
   margin: 0%;
 }
@@ -261,27 +259,45 @@ input::placeholder {
   color: black;
   margin: 0%;
 }
-
+*/
 /*--*****SECOND SECTION*****--*/
 .activity {
   display: flex;
+  justify-content: space-around;
+}
+
+.placement_box2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box_3 {
-  display: flex;
-  align-content: flex-end;
-  background-image: url(images/activites/4_small/activity_1.jpg);
-  background-position: center top 30%;
-  background-size: cover;
   width: 300px;
-  height: 445px;
-  border-radius: 25px;
   box-shadow: 5px 5px 5px gainsboro;
+  border-radius: 25px;
 }
+
 .box_3 img {
-  width: 300px;
+  width: 298px;
   height: 390px;
   object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
 }
-/*.box_4 {
-}*/
+
+.box_4 {
+  width: 300px;
+  height: fit-content;
+  box-shadow: 5px 5px 5px gainsboro;
+  border-radius: 25px;
+}
+
+.box_4 img {
+  width: 298px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.activity figcaption {
+  padding-left: 20px;
+}

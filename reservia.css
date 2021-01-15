@@ -1,4 +1,7 @@
 /*--********************BODY********************--*/
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Raleway", sans-serif;
   margin-top: 30px;
@@ -146,6 +149,7 @@ input::placeholder {
 /*--*****FIRST SECTION*****--*/
 .first_section {
   display: flex;
+  justify-content: center;
 }
 
 /*--*****HOSTING*****--*/
@@ -167,10 +171,11 @@ input::placeholder {
 }
 
 .hosting h3 {
-  font-weight: bolder;
+  color: black;
   margin: 0%;
 }
 .hosting p {
+  color: black;
   margin: 0%;
 }
 
@@ -183,6 +188,7 @@ input::placeholder {
   background-color: white;
   border-radius: 25px;
   box-shadow: 5px 5px 5px gainsboro;
+  text-decoration: none;
 }
 
 .box_1:hover {
@@ -233,6 +239,7 @@ input::placeholder {
   border-radius: 25px;
   padding-left: 5px;
   box-shadow: 5px 5px 5px gainsboro;
+  text-decoration: none;
 }
 
 .box_2:hover {
@@ -246,6 +253,15 @@ input::placeholder {
   object-fit: cover;
 }
 
+.most_popular h3 {
+  color: black;
+  margin: 0%;
+}
+.most_popular p {
+  color: black;
+  margin: 0%;
+}
+
 /*--*****SECOND SECTION*****--*/
 .activity {
   display: flex;
@@ -255,6 +271,7 @@ input::placeholder {
   display: flex;
   align-content: flex-end;
   background-image: url(images/activites/4_small/activity_1.jpg);
+  background-position: center top 30%;
   background-size: cover;
   width: 300px;
   height: 445px;

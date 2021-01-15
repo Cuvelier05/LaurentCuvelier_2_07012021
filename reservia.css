@@ -1,4 +1,7 @@
 /*--********************BODY********************--*/
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Raleway", sans-serif;
   margin-top: 30px;
@@ -146,6 +149,7 @@ input::placeholder {
 /*--*****FIRST SECTION*****--*/
 .first_section {
   display: flex;
+  justify-content: center;
 }
 
 /*--*****HOSTING*****--*/
@@ -160,16 +164,18 @@ input::placeholder {
   flex-wrap: wrap;
   width: 880px;
   height: 620px;
-  background-color: #d1d1d1;
+  background-color: #f2f2f2;
   border-radius: 25px;
   margin-right: 20px;
   padding: 40px;
 }
 
 .hosting h3 {
+  color: black;
   margin: 0%;
 }
 .hosting p {
+  color: black;
   margin: 0%;
 }
 
@@ -181,6 +187,8 @@ input::placeholder {
   height: 195px;
   background-color: white;
   border-radius: 25px;
+  box-shadow: 5px 5px 5px gainsboro;
+  text-decoration: none;
 }
 
 .box_1:hover {
@@ -194,6 +202,7 @@ input::placeholder {
   height: 115px;
   border-radius: 25px 25px 0px 0px;
   padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .fas.fa-star {
@@ -210,11 +219,17 @@ input::placeholder {
   justify-content: space-between;
   flex-direction: column;
   width: 420px;
-  height: 620px;
-  background-color: #d1d1d1;
+  background-color: #f2f2f2;
   border-radius: 25px;
   margin-left: 20px;
+  padding-bottom: 30px;
 }
+
+.most_popular_title {
+  display: flex;
+  justify-content: space-between;
+}
+
 .box_2 {
   display: flex;
   align-items: center;
@@ -223,11 +238,50 @@ input::placeholder {
   background-color: white;
   border-radius: 25px;
   padding-left: 5px;
+  box-shadow: 5px 5px 5px gainsboro;
+  text-decoration: none;
 }
 
+.box_2:hover {
+  background-color: #0065fc;
+  color: white;
+}
 .most_popular img {
   width: 127px;
   height: 134px;
   border-radius: 25px 0px 0px 25px;
   object-fit: cover;
 }
+
+.most_popular h3 {
+  color: black;
+  margin: 0%;
+}
+.most_popular p {
+  color: black;
+  margin: 0%;
+}
+
+/*--*****SECOND SECTION*****--*/
+.activity {
+  display: flex;
+}
+
+.box_3 {
+  display: flex;
+  align-content: flex-end;
+  background-image: url(images/activites/4_small/activity_1.jpg);
+  background-position: center top 30%;
+  background-size: cover;
+  width: 300px;
+  height: 445px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px gainsboro;
+}
+.box_3 img {
+  width: 300px;
+  height: 390px;
+  object-fit: cover;
+}
+/*.box_4 {
+}*/

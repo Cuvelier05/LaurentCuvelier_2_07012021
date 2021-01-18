@@ -1,6 +1,7 @@
 /*--********************BODY********************--*/
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 body {
   margin-left: auto;

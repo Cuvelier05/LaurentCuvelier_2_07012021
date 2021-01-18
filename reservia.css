@@ -225,7 +225,6 @@ input::placeholder {
   background-color: #f2f2f2;
   border-radius: 25px;
   margin-left: 20px;
-  padding-bottom: 30px;
 }
 
 .most_popular_title {
@@ -264,42 +263,44 @@ input::placeholder {
   margin: 0%;
 }
 
-/*--*****SECOND SECTION*****--*/
+/*--*****SECOND SECTION - ACTIVITY*****--*/
+
 .activity {
   display: flex;
-  justify-content: space-around;
-}
 
-.placement_box2 {
-  display: flex;
-  flex-wrap: wrap;
+  text-decoration: none;
 }
 
 .box_3 {
   box-shadow: 5px 5px 5px gainsboro;
   border-radius: 25px;
+  color: black;
 }
 
 .box_3 img {
-  width: 298px;
+  width: 300px;
   height: 390px;
   object-fit: cover;
   border-radius: 25px 25px 0px 0px;
 }
 
 .box_4 {
-  height: fit-content;
   box-shadow: 5px 5px 5px gainsboro;
   border-radius: 25px;
+  color: black;
 }
 
 .box_4 img {
-  width: 298px;
+  width: 300px;
   height: 110px;
   object-fit: cover;
   border-radius: 25px 25px 0px 0px;
 }
-
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 /*--********************FOOTER********************--*/
 footer {
   display: flex;

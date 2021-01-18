@@ -94,37 +94,46 @@ input::placeholder {
 /*--SEARCH FILTERS--*/
 .filters {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .button_filter {
-  background-color: transparent;
-  border: 1.5px solid #d1d1d1;
+  display: flex;
+  align-items: baseline;
+  border: 2px solid #d1d1d1;
   border-radius: 25px;
   outline: none;
-  margin-block: 20px;
-  margin-left: 15px;
-  height: 30px;
   font-weight: bold;
+  color: black;
+}
+
+.button_filter i {
+  display: flex;
+  justify-content: center;
+  width: 2.5em;
+  background-color: #deebff;
+  border-radius: 25px;
+  line-height: 2.5em;
+  font-size: 15px;
+  transform: scale(1.1, 1.1);
+}
+
+.button_filter p {
+  margin: 0%;
+  padding-right: 20px;
+  padding-left: 10px;
 }
 
 .button_filter:hover {
   background-color: #0065fc;
   color: white;
 }
-
-.button_filter i {
-  margin-top: -2.5px;
-  width: 30px;
-  height: 30px;
-  background-color: #deebff;
-  border-radius: 25px;
-  line-height: 30px;
-  font-size: 15px;
-}
-
 .icons {
-  margin-left: -8px;
-  color: #0065fc;
+  color: black;
 }
 
 .info_title {
@@ -166,8 +175,6 @@ input::placeholder {
 .hosting {
   display: flex;
   flex-wrap: wrap;
-  width: 880px;
-  height: 620px;
   background-color: #f2f2f2;
   border-radius: 25px;
   margin-right: 20px;
@@ -216,6 +223,10 @@ input::placeholder {
 }
 
 /*--*****MOST POPULAR*****--*/
+.most_popular_title {
+  display: flex;
+  align-items: baseline;
+}
 .most_popular {
   display: flex;
   align-items: center;
@@ -224,11 +235,6 @@ input::placeholder {
   background-color: #f2f2f2;
   border-radius: 25px;
   margin-left: 20px;
-}
-
-.most_popular_title {
-  display: flex;
-  justify-content: space-between;
 }
 
 .most_popular figure {

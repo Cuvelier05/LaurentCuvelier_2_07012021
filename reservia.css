@@ -3,8 +3,11 @@
   box-sizing: border-box;
 }
 body {
+  margin-left: auto;
   font-family: "Raleway", sans-serif;
+  margin: auto;
   margin-top: 30px;
+  text-align: center;
 }
 
 /*--********************MAIN********************--*/
@@ -12,6 +15,7 @@ body {
 /*--********************HEADER********************--*/
 header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -217,7 +221,6 @@ input::placeholder {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  width: 420px;
   background-color: #f2f2f2;
   border-radius: 25px;
   margin-left: 20px;
@@ -251,7 +254,7 @@ input::placeholder {
   object-fit: cover;
 }
 
-/*.most_popular h3 {
+.most_popular h3 {
   color: black;
   margin: 0%;
 }
@@ -259,7 +262,7 @@ input::placeholder {
   color: black;
   margin: 0%;
 }
-*/
+
 /*--*****SECOND SECTION*****--*/
 .activity {
   display: flex;
@@ -272,7 +275,6 @@ input::placeholder {
 }
 
 .box_3 {
-  width: 300px;
   box-shadow: 5px 5px 5px gainsboro;
   border-radius: 25px;
 }
@@ -285,7 +287,6 @@ input::placeholder {
 }
 
 .box_4 {
-  width: 300px;
   height: fit-content;
   box-shadow: 5px 5px 5px gainsboro;
   border-radius: 25px;
@@ -298,19 +299,14 @@ input::placeholder {
   border-radius: 25px 25px 0px 0px;
 }
 
-.activity figcaption {
-  padding-left: 20px;
-}
-
 /*--********************FOOTER********************--*/
 footer {
   display: flex;
-  align-content: flex-start;
   justify-content: space-between;
   background-color: #f2f2f2;
-  list-style: none;
-  padding-right: 200px;
+  text-align: left;
 }
+
 footer ul {
   list-style-type: none;
 }

@@ -4,11 +4,11 @@
   text-decoration: none;
 }
 body {
-  margin-left: auto;
   font-family: "Raleway", sans-serif;
-  font-size: 1.2em;
   margin: auto;
   margin-top: 30px;
+  padding-left: 3.25em;
+  padding-right: 3.25em;
 }
 
 /*--********************MAIN********************--*/
@@ -59,15 +59,17 @@ header {
 .fas.fa-map-marker-alt {
   display: flex;
   align-items: center;
-  background-color: rgb(235, 235, 235);
-  padding: 9px;
-  border-radius: 10px 0px 0px 10px;
+  background-color: #f2f2f2;
+  padding: 1em;
+  border-radius: 1em 0em 0em 1em;
+}
+.fas.fa-search {
+  display: none;
 }
 
 .search_location {
   text-align: center;
   font-weight: bold;
-  padding: 9px;
   border: 1.5px solid #f2f2f2;
   outline: none;
 }
@@ -79,38 +81,40 @@ input::placeholder {
 
 .search_button {
   text-align: center;
-  background-color: #0065fc;
-  border-radius: 0px 10px 10px 0px;
   color: white;
+  background-color: #0065fc;
   text-decoration: none;
   font-family: "Raleway";
+  font-weight: 600;
   border: none;
   outline: none;
-  padding-left: 1.1em;
-  padding-right: 1.1em;
+  border-radius: 0em 1em 1em 0em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
 }
 
 .search_button:hover {
-  color: white;
-  background-color: #0022e2;
+  color: black;
+  background-color: #deebff;
   text-decoration: none;
 }
 
 /*--SEARCH FILTERS--*/
+
 .filters {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 70%;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  width: 65%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .button_filter {
   display: flex;
   align-items: baseline;
   border: 1px solid #d1d1d1;
-  border-radius: 25px;
+  border-radius: 1.5em;
   outline: none;
   font-weight: bold;
   color: black;
@@ -132,6 +136,8 @@ input::placeholder {
   margin: 0%;
   padding-right: 20px;
   padding-left: 10px;
+  font-weight: 900;
+  font-size: medium;
 }
 
 .button_filter:hover {
@@ -168,7 +174,6 @@ input::placeholder {
 /*--*****FIRST SECTION*****--*/
 .first_section {
   display: flex;
-  justify-content: center;
 }
 
 /*--*****HOSTING*****--*/
@@ -179,33 +184,30 @@ input::placeholder {
 }
 
 .hosting {
-  display: flex;
-  flex-wrap: wrap;
   background-color: #f2f2f2;
   border-radius: 25px;
   margin-right: 20px;
-  padding: 40px;
+  padding: 2em;
 }
 
-.hosting h3 {
+.box_description {
+  padding-left: 1.5em;
+  padding-bottom: 0.5em;
+  font-size: small;
+  line-height: 0.5em;
   color: black;
-  margin: 0%;
-}
-.hosting p {
-  color: black;
-  margin: 0%;
 }
 
 .box_1 {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  width: 250px;
-  height: 195px;
+  width: 245px;
   background-color: white;
-  border-radius: 25px;
+  border-radius: 18px;
   box-shadow: 5px 5px 5px gainsboro;
   text-decoration: none;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .box_1:hover {
@@ -214,47 +216,62 @@ input::placeholder {
 
 .hosting img {
   object-fit: cover;
-  width: 240px;
+  width: 235px;
   height: 115px;
-  border-radius: 25px 25px 0px 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  border-radius: 18px 18px 0px 0px;
+  transform: translate(5px, 5px);
 }
 
 .fas.fa-star {
   color: #0065fc;
 }
 .fas.fa-star.off {
-  color: gray;
+  color: #f2f2f2;
 }
 
-/*--*****MOST POPULAR*****--*/
-.most_popular_title {
-  display: flex;
-  align-items: baseline;
+.see_more {
+  color: black;
+  line-height: 4.5em;
 }
+/*--*****MOST POPULAR*****--*/
 .most_popular {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
+  font-size: small;
   background-color: #f2f2f2;
   border-radius: 25px;
   margin-left: 20px;
+  padding: 2.2em;
+}
+
+.most_popular_title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 .most_popular figure {
   display: flex;
-  align-items: center;
   width: 340px;
   height: 145px;
   background-color: white;
   border-radius: 25px;
-  padding-left: 5px;
+  padding: 5px;
   box-shadow: 5px 5px 5px gainsboro;
   text-decoration: none;
+  margin-top: 2.2em;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
+.most_popular figcaption {
+  padding-top: 1em;
+  padding-left: 1.5em;
+  padding-right: 2em;
+}
+
+.rate {
+  display: flex;
+  padding-top: 2.5em;
+}
 .most_popular figure:hover {
   background-color: #deebff;
 }
@@ -271,7 +288,7 @@ input::placeholder {
 }
 .most_popular p {
   color: black;
-  margin: 0%;
+  line-height: 0.5em;
 }
 
 /*--*****SECOND SECTION - ACTIVITY*****--*/

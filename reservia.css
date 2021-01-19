@@ -6,6 +6,7 @@
 body {
   margin-left: auto;
   font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
   margin: auto;
   margin-top: 30px;
 }
@@ -73,16 +74,20 @@ header {
 
 input::placeholder {
   color: black;
+  font-family: "Raleway";
 }
 
 .search_button {
+  text-align: center;
   background-color: #0065fc;
   border-radius: 0px 10px 10px 0px;
   color: white;
-  padding: 10px;
-  margin-left: -5px;
-  font-size: small;
   text-decoration: none;
+  font-family: "Raleway";
+  border: none;
+  outline: none;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
 }
 
 .search_button:hover {
@@ -104,11 +109,12 @@ input::placeholder {
 .button_filter {
   display: flex;
   align-items: baseline;
-  border: 2px solid #d1d1d1;
+  border: 1px solid #d1d1d1;
   border-radius: 25px;
   outline: none;
   font-weight: bold;
   color: black;
+  padding-top: 1px;
 }
 
 .button_filter i {
@@ -133,7 +139,7 @@ input::placeholder {
   color: white;
 }
 .icons {
-  color: black;
+  color: #0065fc;
 }
 
 .info_title {

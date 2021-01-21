@@ -417,3 +417,70 @@ footer {
   line-height: 2em;
   color: black;
 }
+
+/*--********************RESPONSIVE********************--*/
+
+/*--*****TABLET*****--*/
+@media screen and (max-width: 1024px) {
+  body {
+    margin: auto;
+  }
+  .margin_container {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  .filters {
+    width: 80%;
+  }
+
+  .hosting {
+    width: 60%;
+  }
+
+  .hosting h2 {
+    text-align: center;
+  }
+
+  .hosting {
+    width: 70;
+    padding: 0.5em;
+  }
+  .placement_box {
+    justify-content: space-around;
+  }
+
+  .most_popular {
+    width: 30%;
+  }
+
+  .most_popular figure {
+    width: auto;
+  }
+
+  .most_popular figcaption {
+    padding: initial;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+  }
+
+  .most_popular p {
+    line-height: initial;
+  }
+  #second_part h2 {
+    padding-top: 2em;
+    text-align: center;
+  }
+  .activity {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  footer {
+    padding: 0em;
+  }
+  .name-part {
+    padding-right: auto;
+  }
+}

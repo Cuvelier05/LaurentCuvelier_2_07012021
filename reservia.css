@@ -127,9 +127,11 @@ input::placeholder {
   font-weight: bold;
   margin-right: 2em;
 }
+
 a.button_filter {
   margin-right: 2em;
 }
+
 .button_filter {
   display: flex;
   align-items: baseline;
@@ -154,7 +156,7 @@ a.button_filter {
 
 .button_filter p {
   margin: 0%;
-  padding-right: 20px;
+  padding-right: 15px;
   padding-left: 10px;
   font-weight: 900;
   font-size: medium;
@@ -455,10 +457,6 @@ footer {
     width: 100%;
   }
 
-  .button_filter p {
-    padding-left: 3px;
-    padding-right: 3px;
-  }
   /*--*****HOSTING*****--*/
   .hosting {
     width: 60%;
@@ -545,7 +543,6 @@ footer {
     margin: auto;
   }
   .margin_container {
-    max-width: 100%;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -574,7 +571,6 @@ footer {
   }
   nav li {
     padding-top: 1em;
-    padding-right: 31%;
     padding-left: 25%;
   }
 
@@ -599,7 +595,8 @@ footer {
 
   /*--SEARCH BUTTONS--*/
   .search_space {
-    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .search_location {
@@ -632,11 +629,15 @@ footer {
   }
 
   .filters {
-    width: 100%;
-    padding-left: 4%;
+    width: 90%;
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 1em;
+    padding-left: 4%;
+  }
+
+  a.button_filter {
+    margin-right: 0.5em;
   }
 
   .button_filter {
@@ -657,12 +658,14 @@ footer {
   .hosting {
     margin: auto;
     background-color: transparent;
+    padding: 1em;
   }
   .hosting h2 {
     font-size: large;
+    padding: 0em;
   }
   .box_1 {
-    width: 90%;
+    width: 100%;
   }
 
   .hosting img {
@@ -680,6 +683,7 @@ footer {
   /*--*****MOST POPULAR*****--*/
 
   .most_popular {
+    padding: 1em;
     margin: 0;
     border-radius: 0em;
   }
@@ -700,13 +704,15 @@ footer {
   }
 
   /*--*****SECOND PART (ACTIVITY) *****--*/
-  #second_part h2 {
-    padding-top: 0em;
+  #second_part {
+    padding: 1em;
   }
-
+  #second_part h2 {
+    font-size: large;
+  }
   .activity {
     display: flex;
-    align-items: center;
+    /* align-items: center;*/
     flex-direction: column;
     padding: 0;
   }
@@ -719,31 +725,31 @@ footer {
   }
 
   .box_3 {
-    width: 90%;
+    width: 100%;
     margin-bottom: 2.2em;
   }
 
   .box_4 {
-    width: 90%;
+    width: 100%;
     margin-bottom: 2.2em;
   }
 
   .box_5 {
-    width: 90%;
+    width: 100%;
     margin-bottom: 2.2em;
   }
 
   .box_6 {
-    width: 90%;
+    width: 100%;
     margin-bottom: 2.2em;
   }
   .box_7 {
-    width: 90%;
+    width: 100%;
   }
   /*--********************FOOTER********************--*/
   footer {
     margin-top: 3em;
-    padding-left: 3em;
+    padding-left: 1em;
   }
 
   .name_part {

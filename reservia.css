@@ -209,8 +209,7 @@ a.button_filter {
 .placement_box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: baseline;
+  justify-content: center;
 }
 
 .hosting figure {
@@ -238,7 +237,7 @@ a.button_filter {
   background-color: white;
   border-radius: 18px;
   box-shadow: 5px 5px 5px gainsboro;
-  margin: 0.5em;
+  margin: 0.7em;
 }
 
 .box_1:hover {

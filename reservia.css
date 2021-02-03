@@ -11,7 +11,7 @@ body {
 /*--********************BODY********************--*/
 /****HEADER****SEARCH SECTION****MAIN****/
 .margin_container {
-  max-width: 1640px;
+  max-width: 1520px;
   margin: 2% 5%;
 }
 
@@ -202,24 +202,26 @@ a.button_filter {
 /*--*****FIRST PART (HOSTING & MOST POPULAR) *****--*/
 #first_part {
   display: flex;
-  margin-top: 2em;
+  margin: 2em 0;
 }
 
 /*--*****HOSTING*****--*/
 .placement_box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: baseline;
-  padding-left: 1em;
-  padding-right: 1em;
+}
+
+.hosting figure {
+  margin: 0;
 }
 
 .hosting {
   background-color: #f2f2f2;
   border-radius: 25px;
   margin-right: 2%;
-  padding: 2em;
+  padding: 1em;
 }
 
 .box_description {
@@ -236,7 +238,7 @@ a.button_filter {
   background-color: white;
   border-radius: 18px;
   box-shadow: 5px 5px 5px gainsboro;
-  margin-bottom: 1.8em;
+  margin: 0.5em;
 }
 
 .box_1:hover {
@@ -245,7 +247,7 @@ a.button_filter {
 
 .hosting img {
   object-fit: cover;
-  width: 235px;
+  min-width: 235px;
   height: 115px;
   border-radius: 18px 18px 0px 0px;
   padding: 5px;
@@ -260,13 +262,13 @@ a.button_filter {
 }
 
 .hosting h2 {
-  padding-left: 0.8em;
+  padding-left: 25px;
 }
 
 .see_more {
   color: black;
   line-height: 4.5em;
-  padding-left: 1em;
+  padding-left: 25px;
 }
 
 .see_more :hover {
@@ -276,13 +278,14 @@ a.button_filter {
 .most_popular {
   background-color: #f2f2f2;
   border-radius: 25px;
-  padding: 2em;
+  padding: 1em;
 }
 
 .most_popular_title {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 0.5em;
 }
 
 .most_popular figure {
@@ -294,8 +297,7 @@ a.button_filter {
   border-radius: 18px;
   padding: 5px;
   box-shadow: 5px 5px 5px gainsboro;
-  margin: 0;
-  margin-bottom: 1.8em;
+  margin: 0.5em;
 }
 
 .most_popular figcaption {
@@ -432,7 +434,7 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 70%;
-  padding-left: 4em;
+  padding-left: 4.6em;
   padding-top: 2em;
   padding-bottom: 2.5em;
 }
@@ -619,10 +621,6 @@ footer {
     transform: translate(0px, 0px);
   }
 
-  .see_more {
-    line-height: 0em;
-  }
-
   /*--*****MOST POPULAR*****--*/
 
   .most_popular {
@@ -738,10 +736,6 @@ footer {
     text-align: center;
   }
 
-  .placement_box {
-    justify-content: space-around;
-  }
-
   /*--*****MOST POPULAR*****--*/
   .most_popular {
     width: 30%;
@@ -750,6 +744,7 @@ footer {
 
   .most_popular figure {
     width: auto;
+    min-width: 200px;
     display: block;
     text-align: center;
   }
@@ -807,12 +802,15 @@ footer {
   }
 }
 
-/*@media screen and (min-width: 1641px) {
+@media screen and (min-width: 1641px) {
   .margin_container {
+    width: 1520px;
     margin: auto;
+    padding: 1%;
   }
 
   .footer_contain {
+    width: 1520px;
     margin: auto;
   }
-}*/
+}

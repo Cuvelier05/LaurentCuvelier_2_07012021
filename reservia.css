@@ -422,7 +422,6 @@ img.picture {
 .activity figcaption {
   display: flex;
   margin-left: 1.25em;
-  line-height: 0%;
 }
 
 /*--********************FOOTER********************--*/

@@ -426,6 +426,7 @@ footer {
   padding-top: 2em;
   padding-bottom: 2.5em;
 }
+
 .footer_contain ul {
   display: flex;
   flex-direction: column;

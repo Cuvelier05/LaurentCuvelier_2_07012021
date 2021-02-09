@@ -431,7 +431,7 @@ footer {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  padding-inline-start: 0;
+  padding: 0;
 }
 
 .footer_contain a {
